@@ -1,0 +1,13 @@
+import UIKit
+
+var a: Double = 3
+var b: Double = 4
+
+var c: Double = sqrt(a * a + b * b)
+print ("Гипотенуза треугольника равна \(c)")
+
+var S: Double = (a*b)/2
+print ("Площадь треугольника равна \(S)")
+
+var P: Double = (a+b+c)
+print ("Периметр треугольника равен \(P)")
