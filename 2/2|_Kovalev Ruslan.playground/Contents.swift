@@ -1,3 +1,5 @@
+import UIKit
+
 //Задание 1
 
 func filterEven (num: Int) -> Bool {
@@ -47,4 +49,3 @@ for index in stride(from: arr.count - 1, through: 0, by: -1) {
 
 let result4 = arr
 print (result4)
-
